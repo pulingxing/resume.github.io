@@ -1,10 +1,9 @@
 html,body{
 	font-family: 'Microsoft YaHei',sans-serif;
-    margin:0px;
-    height:100%;
-    background: url(../img/templatemo-bg-1.jpg) repeat;
-   /* overflow: hidden;*/
-   color: #fff;
+	margin:0px;
+	height:100%;
+	color: #fff;
+	background: url(../img/templatemo-bg-1.jpg) no-repeat;
 }
 .hide{
 	display: none;
@@ -38,17 +37,28 @@ html,body{
 .navbar-toggle{
 	margin-top: 15px;
 }
-.section{
-	padding:20px;
-	font-size: 32px;
+section {
 	font-weight: 400;
+	font-size: 32px;
 	text-align: center;
-	background-size: cover;
-	height: 100%;
 }
-/*.mask {
-	background-color: rgba(0,0,0,0.4);
+/*#home{
+	background: url(../img/templatemo-bg-1.jpg) no-repeat;
+	background-position: center;
+}
+#aboutMe {
+	background: url(../img/1.jpg) no-repeat;
+	background-position: center;
+}
+#exp{
+	background: url(../img/2.jpg) no-repeat;
+	background-position: center;
+}
+#demo_content{
+	background: url(../img/4.jpg) no-repeat;
+	background-position: center;
 }*/
+
 /*logo*/
 .navbar-header #logo{
 	height: 80px;
