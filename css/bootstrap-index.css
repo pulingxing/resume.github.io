@@ -251,7 +251,7 @@ section#exp .exp_list{
 section#demo_content .demo_details{
 	position: relative;
 	height: 100%;
-	width: 200px;
+	/*width: 200px;*/
 	cursor: pointer;
 }
 section#demo_content .demo_details .box_hover{
